@@ -19,10 +19,10 @@ module pepe::pepe {
         let (treasury_cap, metadata) = coin::create_currency<PEPE>(
             witness,
             9,
-            b"Pepe",
-            b"Pepe",
+            b"Haseeb",
+            b"HUA",
             b"Lets create a great coin to trade with",
-            option::some<Url>(url::new_unsafe_from_bytes(b"https://avatars.githubusercontent.com/u/53255366?v=4")),
+            option::some<Url>(url::new_unsafe_from_bytes(b"https://api.dicebear.com/8.x/lorelei/svg?seed=HHH")),
             ctx
         );
         let initial_supply = 100_000_000_000_000;
