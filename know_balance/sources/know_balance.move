@@ -14,6 +14,7 @@ module know_balance::know_balance {
         owner: address,
         amount: u64,
     }
+
     
     /// # Returns
     /// - The balance amount of the specified coin type.
@@ -30,5 +31,6 @@ module know_balance::know_balance {
         
         
     }
+    
 
 }
